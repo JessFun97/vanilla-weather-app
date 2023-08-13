@@ -1,0 +1,36 @@
+h1 {
+  color: rgb(90, 68, 190);
+  text-align: left;
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  height: 48px;
+  line-height: 48px;
+  margin-bottom: 0;
+}
+
+body {
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+}
+.climate-app {
+  max-width: 608px;
+  margin: 25px auto;
+  background: #fff;
+  border: 1px solid #0dcaf0;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  color: #878787;
+  padding: 40px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  color: rgba(135, 135, 135);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 20px;
+  list-style: none;
+}
