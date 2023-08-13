@@ -18,10 +18,10 @@
     <div class="container">
       <div class="climate-app-wrapper">
         <div class="climate-app">
-          <h1>New York</h1>
+          <h1 id="city"></h1>
           <ul>
             <li>Sunday 4.07</li>
-            <li>Partly cloudy</li>
+            <li id="description"></li>
           </ul>
           <div class="row">
             <div class="col-6">
@@ -30,15 +30,14 @@
                   src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
                   alt="partly_cloudy"
                 />
-                <strong id="temperature">26</strong>
+                <strong id="temperature"></strong>
                 <span class="units">°C | <a href="#">°F </a></span>
               </div>
             </div>
             <div class="col-6">
               <ul>
-                <li>Precipitation: 2%</li>
-                <li>Humidity: 73%</li>
-                <li>Wind: 10km/h</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="windspeed"></span>km/h</li>
               </ul>
             </div>
           </div>

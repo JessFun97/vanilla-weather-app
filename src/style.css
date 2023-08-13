@@ -2,8 +2,8 @@ h1 {
   color: rgb(90, 68, 190);
   text-align: left;
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
-  font-size: 38px;
-  font-weight: 600;
+  font-size: 32px;
+  font-weight: 400;
   height: 48px;
   line-height: 48px;
   margin-bottom: 0;
@@ -19,10 +19,11 @@ ul {
 }
 li {
   color: rgba(135, 135, 135);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 100;
   line-height: 20px;
   list-style: none;
+  text-transform: capitalize;
 }
 .climate-app-wrapper {
   max-width: 608px;
