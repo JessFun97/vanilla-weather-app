@@ -42,8 +42,20 @@ function displayTemperature(response) {
   );
 }
 
-let apiKey = "2e45eaecbf0d17607244af8d840a698f";
-let city = "Paris";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+function search(city) {
+  let apiKey = "2e45eaecbf0d17607244af8d840a698f";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayTemperature);
+}
 
-axios.get(apiUrl).then(displayTemperature);
+function handlePush(event) {
+  event.preventDefault();
+  let cityResponseElement = document.querySelector("#city-response");
+  search(cityResponseElement.value);
+  console.log(cityResponseElement.value);
+}
+
+search("Lagos");
+
+let form = document.querySelector("#searching");
+form.addEventListener("submit", handlePush);
