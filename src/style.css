@@ -1,5 +1,5 @@
 h1 {
-  color: rgb(90, 68, 190);
+  color: #38598b;
   text-align: left;
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
   font-size: 32px;
@@ -40,6 +40,7 @@ li:first-letter {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   color: #878787;
   padding: 40px;
+  background-color: rgb(190, 228, 210);
 }
 .weather-temperature img {
   height: 60px;
