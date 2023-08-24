@@ -76,4 +76,5 @@ li:first-letter {
 .weather-forecast-temp-min {
   color: #70757a;
   font-size: 13px;
+  opacity: 0.7;
 }
